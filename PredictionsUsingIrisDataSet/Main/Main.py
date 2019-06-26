@@ -31,4 +31,4 @@ dot_data = tree.export_graphviz(clf, out_file=dotData,
                     impurity=False)
 graph = pydot.graph_from_dot_data(dotData.getvalue())
 graph[0].write_pdf("iris.pdf")
-print('Pdf created succesfully')
+print('Pdf created succesfully!')
