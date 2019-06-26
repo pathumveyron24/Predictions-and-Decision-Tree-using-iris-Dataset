@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn import tree
-from IPython.display import Image
 from sklearn.externals.six import StringIO
 import pydot
 
