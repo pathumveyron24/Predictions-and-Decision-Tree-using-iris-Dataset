@@ -30,6 +30,6 @@ dot_data = tree.export_graphviz(clf, out_file=dotData,
                                 impurity=False)
 graph = pydot.graph_from_dot_data(dotData.getvalue())
 
-# writing the values of tree to a visualizable tree and printing to a pdf
+
 graph[0].write_pdf("iris.pdf")
 print('Pdf created succesfully!')
