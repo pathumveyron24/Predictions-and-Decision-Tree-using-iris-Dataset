@@ -15,6 +15,7 @@ trainData = np.delete(iris.data, idx, axis=0)
 testTarget = iris.target[idx]
 testData = iris.data[idx]
 
+# classifying
 clf = tree.DecisionTreeClassifier()
 clf.fit(trainData, trainTarget)
 
